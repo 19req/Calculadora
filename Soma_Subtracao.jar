@@ -15,13 +15,23 @@ public class Programa {
       {
 if ( operador.equals  ("+") )
 
+
        
 MostreResultado = String.valueOf(Float.parseFloat(numero1) + Float.parseFloat(numero2));
  else
 
  if ( operador.equals  ("-") )
 
+
 MostreResultado =String.valueOf(Float.parseFloat(numero1) - Float.parseFloat(numero2));
+
+else //adicionando a subtracao
+
+ if ( operador.equals  ("/") ) //adicionando a subtracao
+
+
+ MostreResultado =String.valueOf(Float.parseFloat(numero1) / Float.parseFloat(numero2));  //adicionando a subtracao
+
 
   JOptionPane.showMessageDialog(null,"O Resultado é:"+ MostreResultado);
       System.exit( 0 );
