@@ -31,6 +31,14 @@ else //adicionando a subtracao
 
 
  MostreResultado =String.valueOf(Float.parseFloat(numero1) / Float.parseFloat(numero2));  //adicionando a subtracao
+ 
+ 
+// else  //ADICIONANDO MULTIPLICACAO
+
+ //  if ( operador.equals  ("*") )  //ADICIONANDO MULTIPLICACAO
+
+
+ //MostreResultado =String.valueOf(Float.parseFloat(numero1) * Float.parseFloat(numero2));   //ADICIONANDO MULTIPLICACAO
 
 
   JOptionPane.showMessageDialog(null,"O Resultado é:"+ MostreResultado);
